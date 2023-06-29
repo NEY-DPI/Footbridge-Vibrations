@@ -1,5 +1,6 @@
 import pandas as pd
 import math as m
+import streamlit as st
 
 
 def get_freq(file):

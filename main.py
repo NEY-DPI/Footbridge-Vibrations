@@ -174,5 +174,6 @@ if eigenfrequencies is not None:
                          "d (p/m2)": st.column_config.NumberColumn(format="{:.2f}")
                      },
                      hide_index=True)
+        st.download_button(label="Download", data=results_mode[mode_id], file_name=f'mode {mode}.xlsx')
 
 
